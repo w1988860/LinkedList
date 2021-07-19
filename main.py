@@ -8,6 +8,12 @@
 # Created a Node class to insert a node in linkedlist
 class Node :
     def __init__(self,data,next):
+=======
+#Version_01
+#Use any visualization tool to understand the flow of execution
+
+class Node:
+    def __init__(self, data=None, next=None):
         self.data = data
         self.next = next
 
